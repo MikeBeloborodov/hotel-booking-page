@@ -6,7 +6,9 @@
   --clr-circle-white: #FFF;
   --clr-circle-orange: #FAB047;
   --clr-read-more-link: #424F7B;
-
+  --clr-footer-background: #0B265A;
+  --clr-footer-text: #D9DBDE;
+  --clr-footer-heading: #FFF;
 }
 
 .header {
@@ -232,6 +234,7 @@
   height: 8px;
   background-color: var(--clr-circle-white);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .circle_orange {
@@ -353,49 +356,90 @@
 }
 
 .reviews__carousel {
-  padding: 25px 0 0 0;
+  padding: 25px 0 82px 0;
 }
 
-.footer {}
+.footer {
+  background-color: var(--clr-footer-background);
+  padding: 120px 120px 120px 120px;
+  display: grid;
+  grid-template-columns: 1fr 0.42fr 0.37fr 0.33fr;
+}
 
-.footer__logo-section {}
+.footer__logo {
+  width: 233px;
+  margin: 5px 0 10px 0;
+}
 
-.footer__logo {}
+.footer__slogan {
+  padding: 0 380px 0 0;
+}
 
-.footer__slogan {}
+.footer-heading {
+  color: var(--clr-footer-heading);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  padding: 0 0 20px 0;
+}
 
-.footer-text {}
+.footer-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--clr-footer-text);
+  font-style: normal;
+}
 
-.footer__links-list {}
+.footer__outside-links-list {
+  list-style: none;
+  display: flex;
+  padding: 35px 0 0 0;
+  gap: 10px
+}
 
-.footer__links-list-item {}
+.link-logo {
+  width: 32px;
+}
 
-.outside-link {}
+.link-logo {
+  width: 44px;
+  margin: 2px 0 0 1px;
+}
 
-.link-logo {}
+.footer__houses-section-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-.footer__houses-section {}
+.footer-link {
+  text-decoration: none;
+}
 
-.footer__houses-section-title {}
+.footer-link:hover {
+  outline: 2px solid var(--clr-footer-text);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
 
-.footer__houses-section-list {}
+.footer__reserve-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
 
-.footer__houses-section-list-item {}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-.footer-link {}
-
-.footer__reserve-section {}
-
-.footer__reserve-section-title {}
-
-.footer__reserve-section-list {}
-
-.footer__reserve-section-list-item {}
-
-.footer__address-section {}
-
-.footer__address-section-title {}
-
-.address {}
-
-.address-text {}
+.address-text {
+  line-height: 1.3;
+}
