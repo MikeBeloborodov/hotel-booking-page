@@ -3,6 +3,10 @@
   --clr-button-font: #FFF;
   --clr-button-fill: #0E1734;
   --clr-paragraph: #848FAC;
+  --clr-circle-white: #FFF;
+  --clr-circle-orange: #FAB047;
+  --clr-read-more-link: #424F7B;
+
 }
 
 .header {
@@ -48,6 +52,7 @@
   font-weight: 500;
   font-size: 16px;
   border-radius: 4px;
+  width: fit-content;
 }
 
 .button:hover {
@@ -114,10 +119,9 @@
   padding: 17px 0 0;
 }
 
-.about__img {}
-
 .about__text-area {
-  padding: 126px 0 0;
+  align-self: center;
+  padding: 24px 0 0 0;
 }
 
 .about__title {
@@ -137,71 +141,169 @@
   padding: 0 100px 17px 0;
 }
 
-.benefit {}
+.benefit {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 29px;
+  padding-top: 75px
+}
 
-.benefit__activities {}
+.benefit__activities {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  column-gap: 100px;
+}
 
-.benefit__activities-text-area {}
+.benefit__activities-text-area {
+  align-self: center;
+}
 
-.benefit__activities-title {}
+.benefit__activities-title {
+  padding: 0 0 22px 0;
+}
 
-.benefit__activities-text {}
+.benefit__activities-text {
+  padding: 0 30px 0 0;
+}
 
-.benefit__activities-image-area {}
+.benefit__activities-img {
+  width: 384px;
+}
 
-.benefit__activities-img {}
+.benefit__food {
+  display: grid;
+  grid-template-columns: 0.74fr 1fr;
+}
 
-.benefit__food {}
+.benefit__food-img {
+  width: 384px;
+}
 
-.benefit__food-image-area {}
+.benefit__food-text-area {
+  align-self: center;
+}
 
-.benefit__food-img {}
+.benefit__food-title {
+  padding: 0 0 24px 0;
+}
 
-.benefit__food-text-area {}
+.benefit__food-text {
+  padding: 0 50px 0 0;
+}
 
-.benefit__food-title {}
-
-.benefit__food-text {}
-
-.gallery {}
+.gallery {
+  padding: 75px 0 0 0;
+  position: relative;
+}
 
 .gallery__title {
   text-align: center;
+  padding: 0 0 36px 0;
 }
 
-.gallery__list {}
+.gallery__list {
+  display: grid;
+  grid-template-columns: 1fr 0.32fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 3px;
+  list-style: none;
+}
 
-.gallery__list-item {}
+.active_element {
+  grid-row: 1 / 4;
+}
 
-.gallery__img {}
+.carousel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
-.gallery__carousel {}
+.gallery__carousel {
+  bottom: 5%;
+  left: 35.4%;
+}
 
-.circle {}
+.circle {
+  width: 8px;
+  height: 8px;
+  background-color: var(--clr-circle-white);
+  border-radius: 50%;
+}
 
-.circle_white {}
+.circle_orange {
+  background-color: var(--clr-circle-orange);
+  opacity: 35%;
+}
 
-.circle_active {}
+.circle_active {
+  width: 10px;
+  height: 10px;
+  background-color: var(--clr-circle-orange);
+  border-radius: 50%;
+}
 
-.reservation {}
+.reservation {
+  padding-top: 73px
+}
 
-.reservation__intro {}
+.reservation__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.reservation__intro-title {}
+.reservation__intro-title {
+  text-align: center;
+  padding: 0 0 23px 0;
+}
 
-.reservation__intro-text {}
+.reservation__intro-text {
+  text-align: center;
+  padding: 0 300px 32px;
+}
 
-.reservation__options-list {}
+.reservation__button {
+  margin: 0 11px 0 0;
+}
 
-.reservation__options-list-item {}
+.reservation__options-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+  padding: 87px 0 0 0;
+}
 
-.option-card {}
+.option-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 
-.option-card__title {}
+.option-card__content {
+  padding: 0 0 30px 0;
+}
 
-.option-card__text {}
+.option-card__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 30px 0 16px 0;
+}
 
-.option-card__link {}
+.option-card__link {
+  text-decoration: none;
+  color: var(--clr-read-more-link);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  display: block;
+}
 
 .reviews {}
 

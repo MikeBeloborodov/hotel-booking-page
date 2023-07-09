@@ -136,7 +136,7 @@
       <section class="gallery">
         <h2 class="gallery__title h2-header">Наши интерьеры</h2>
         <ul class="gallery__list">
-          <li class="gallery__list-item">
+          <li class="gallery__list-item active_element">
             <img
               class="gallery__img"
               src="images/living_room_1.jpg"
@@ -173,11 +173,11 @@
             />
           </li>
         </ul>
-        <div class="gallery__carousel">
-          <div class="circle circle_white"></div>
+        <div class="carousel gallery__carousel">
+          <div class="circle"></div>
           <div class="circle circle_active"></div>
-          <div class="circle circle_white"></div>
-          <div class="circle circle_white"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
         </div>
       </section>
       <section class="reservation content-section">
@@ -187,35 +187,64 @@
             У нас есть дома для любых мероприятий. Для большой компании у нас
             есть двухэтажный дом на самом краю леса.
           </p>
-          <button class="button button-slim">Подробнее</button>
+          <button class="reservation__button button button-wide">
+            Подробнее
+          </button>
         </div>
         <ul class="reservation__options-list">
           <li class="reservation__options-list-item">
             <article class="option-card" id="small_house">
-              <h3 class="option-card__title">Маленький домик</h3>
-              <p class="option-card__text paragraph-text">
-                Уютный коттедж с 3 спальнями и бильярдом.
-              </p>
+              <div class="option-card__content">
+                <img
+                  class="option-card__img"
+                  src="images/house_inside.png"
+                  alt="Интерьер уютного загородного дома. Кровать у окна с видом на зимний лес."
+                  width="384"
+                  height="489"
+                />
+                <h3 class="option-card__title">Маленький домик</h3>
+                <p class="option-card__text paragraph-text">
+                  Уютный коттедж с 3 спальнями и бильярдом.
+                </p>
+              </div>
               <a class="option-card__link" href="#0">Подробнее</a>
             </article>
           </li>
           <li class="reservation__options-list-item">
             <article class="option-card" id="big_house">
-              <h3 class="option-card__title">Большой дом</h3>
-              <p class="option-card__text paragraph-text">
-                266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
-                бильярдом.
-              </p>
+              <div class="option-card__content">
+                <img
+                  class="option-card__img"
+                  src="images/house_inside_bed.png"
+                  alt="Девушка на кровати у окна с видом на осенний лес читает книгу."
+                  width="384"
+                  height="489"
+                />
+                <h3 class="option-card__title">Большой дом</h3>
+                <p class="option-card__text paragraph-text">
+                  266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
+                  бильярдом.
+                </p>
+              </div>
               <a class="option-card__link" href="#0">Подробнее</a>
             </article>
           </li>
           <li class="reservation__options-list-item">
             <article class="option-card" id="two_floors_house">
-              <h3 class="option-card__title">Двухэтажный дом</h3>
-              <p class="option-card__text paragraph-text">
-                Коттедж с сауной, четырьмя спальнями и бильярдом. Идеально
-                подойдет для полноценного празднования нового года.
-              </p>
+              <div class="option-card__content">
+                <img
+                  class="option-card__img"
+                  src="images/house_winter.png"
+                  alt="Двухэтажный загородный дом в европейском стиле на берегу зимнего пруда."
+                  width="384"
+                  height="489"
+                />
+                <h3 class="option-card__title">Двухэтажный дом</h3>
+                <p class="option-card__text paragraph-text">
+                  Коттедж с сауной, четырьмя спальнями и бильярдом. Идеально
+                  подойдет для полноценного празднования нового года.
+                </p>
+              </div>
               <a class="option-card__link" href="#0">Подробнее</a>
             </article>
           </li>
@@ -238,11 +267,11 @@
           </p>
           <p class="review-card__name">Ирина Иванова</p>
         </article>
-        <div class="reviews__carousel">
-          <div class="circle"></div>
+        <div class="carousel reviews__carousel">
+          <div class="circle circle_orange"></div>
           <div class="circle circle_active"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
+          <div class="circle circle_orange"></div>
+          <div class="circle circle_orange"></div>
         </div>
       </section>
     </main>
