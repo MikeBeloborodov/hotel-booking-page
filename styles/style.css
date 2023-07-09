@@ -1,0 +1,211 @@
+:root {
+  --clr-text-accent: #192252;
+  --clr-button-font: #FFF;
+  --clr-button-fill: #0E1734;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 41px 0 32px;
+}
+
+.content-section {
+  padding: 0 120px;
+}
+
+.header__logo {
+  width: 233px;
+}
+
+.header__nav {
+  margin: 0 auto;
+}
+
+.header__nav-list {
+  list-style: none;
+  display: flex;
+  gap: 36px;
+}
+
+.header__nav-list-item {}
+
+.header-link {
+  text-decoration: none;
+  color: var(--clr-text-accent);
+  font-weight: 500;
+}
+
+.button-slim {
+  padding: 12px 15px; 
+  color: var(--clr-button-font);
+  background-color: var(--clr-button-fill);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.cover {}
+
+.cover__text-area {}
+
+.cover__title {}
+
+.cover__text {}
+
+.paragraph-text {}
+
+.button-wide {}
+
+.cover__image-area {}
+
+.cover__img {}
+
+.cover__img_center {}
+
+.about {}
+
+.about__image-area {}
+
+.about__img {}
+
+.about__text-area {}
+
+.about__title {}
+
+.h2-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: var(--clr-text-accent);
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.about__text {}
+
+.benefit {}
+
+.benefit__activities {}
+
+.benefit__activities-text-area {}
+
+.benefit__activities-title {}
+
+.benefit__activities-text {}
+
+.benefit__activities-image-area {}
+
+.benefit__activities-img {}
+
+.benefit__food {}
+
+.benefit__food-image-area {}
+
+.benefit__food-img {}
+
+.benefit__food-text-area {}
+
+.benefit__food-title {}
+
+.benefit__food-text {}
+
+.gallery {}
+
+.gallery__title { 
+  text-align: center;
+}
+
+.gallery__list {}
+
+.gallery__list-item {}
+
+.gallery__img {}
+
+.gallery__carousel {}
+
+.circle {}
+
+.circle_white {}
+
+.circle_active {}
+
+.reservation {}
+
+.reservation__intro {}
+
+.reservation__intro-title {}
+
+.reservation__intro-text {}
+
+.reservation__options-list {}
+
+.reservation__options-list-item {}
+
+.option-card {}
+
+.option-card__title {}
+
+.option-card__text {}
+
+.option-card__link {}
+
+.reviews {}
+
+.reviews__title {
+  text-align: center;
+}
+
+.review-card {}
+
+.review-card__avatar {}
+
+.review-card__text {}
+
+.review-card__name {}
+
+.reviews__carousel {}
+
+.footer {}
+
+.footer__logo-section {}
+
+.footer__logo {}
+
+.footer__slogan {}
+
+.footer-text {}
+
+.footer__links-list {}
+
+.footer__links-list-item {}
+
+.outside-link {}
+
+.link-logo {}
+
+.footer__houses-section {}
+
+.footer__houses-section-title {}
+
+.footer__houses-section-list {}
+
+.footer__houses-section-list-item {}
+
+.footer-link {}
+
+.footer__reserve-section {}
+
+.footer__reserve-section-title {}
+
+.footer__reserve-section-list {}
+
+.footer__reserve-section-list-item {}
+
+.footer__address-section {}
+
+.footer__address-section-title {}
+
+.address {}
+
+.address-text {}
