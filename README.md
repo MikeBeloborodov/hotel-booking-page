@@ -10,6 +10,8 @@
 
 ### Скриншот
 
+![](./screenshoot_desktop.png)
+
 ### Макет
 
 - Макет задания: [Figma](https://www.figma.com/file/4BPfCzhrx8KkqnLmTtX5TT/)
@@ -17,7 +19,7 @@
 ### Ссылки
 
 - URL решения: [Github](https://github.com/MikeBeloborodov/hotel-booking-page)
-- URL лайв сервера: [Netlify]()
+- URL лайв сервера: [Netlify](https://beautiful-blancmange-4878fe.netlify.app/)
 
 ## Автор
 
