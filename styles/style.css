@@ -2,16 +2,17 @@
   --clr-text-accent: #192252;
   --clr-button-font: #FFF;
   --clr-button-fill: #0E1734;
+  --clr-paragraph: #848FAC;
 }
 
 .header {
   display: flex;
   align-items: center;
-  margin: 41px 0 32px;
+  margin: 41px 120px 32px;
 }
 
 .content-section {
-  padding: 0 120px;
+  padding: 80px 120px;
 }
 
 .header__logo {
@@ -28,16 +29,19 @@
   gap: 36px;
 }
 
-.header__nav-list-item {}
-
 .header-link {
   text-decoration: none;
   color: var(--clr-text-accent);
   font-weight: 500;
 }
 
-.button-slim {
-  padding: 12px 15px; 
+.header-link:hover {
+  outline: 2px solid var(--clr-button-fill);
+  border-radius: 4px;
+  outline-offset: 4px;
+}
+
+.button {
   color: var(--clr-button-font);
   background-color: var(--clr-button-fill);
   font-family: 'Inter', sans-serif;
@@ -46,33 +50,79 @@
   border-radius: 4px;
 }
 
-.cover {}
+.button:hover {
+  background-color: var(--clr-button-font);
+  color: var(--clr-button-fill);
+}
 
-.cover__text-area {}
+.button-slim {
+  padding: 12px 15px;
+}
 
-.cover__title {}
+.cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+}
 
-.cover__text {}
+.cover__text-area {
+  padding: 135px 0 0;
+}
 
-.paragraph-text {}
+.cover__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.48px;
+  padding: 0 0 23px 0;
+}
 
-.button-wide {}
+.cover__text {
+  padding: 0 100px 59px 0;
+}
 
-.cover__image-area {}
+.paragraph-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--clr-paragraph);
+}
 
-.cover__img {}
+.button-wide {
+  padding: 14px 31px;
+}
 
-.cover__img_center {}
+.cover__image-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+}
 
-.about {}
+.cover__img_center {
+  padding: 80px 0 0;
+  height: 100%;
+}
 
-.about__image-area {}
+.about {
+  display: grid;
+  grid-template-columns: 0.556fr 1fr;
+  column-gap: 126px;
+}
+
+.about__image-area {
+  padding: 17px 0 0;
+}
 
 .about__img {}
 
-.about__text-area {}
+.about__text-area {
+  padding: 126px 0 0;
+}
 
-.about__title {}
+.about__title {
+  padding: 0 0 30px;
+}
 
 .h2-header {
   font-family: 'Montserrat', sans-serif;
@@ -80,9 +130,12 @@
   color: var(--clr-text-accent);
   font-size: 36px;
   line-height: 1.5;
+  letter-spacing: -0.36px;
 }
 
-.about__text {}
+.about__text {
+  padding: 0 100px 17px 0;
+}
 
 .benefit {}
 
@@ -112,7 +165,7 @@
 
 .gallery {}
 
-.gallery__title { 
+.gallery__title {
   text-align: center;
 }
 
