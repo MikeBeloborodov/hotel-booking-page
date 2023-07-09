@@ -31,37 +31,37 @@
 }
 
 .header__nav-list {
-  list-style: none;
   display: flex;
   gap: 36px;
+  list-style: none;
 }
 
 .header-link {
-  text-decoration: none;
   color: var(--clr-text-accent);
   font-weight: 500;
+  text-decoration: none;
 }
 
 .header-link:hover {
-  outline: 2px solid var(--clr-button-fill);
   border-radius: 4px;
+  outline: 2px solid var(--clr-button-fill);
   outline-offset: 4px;
 }
 
 .button {
+  width: fit-content;
+  border: 2px solid var(--clr-button-fill);
+  border-radius: 4px;
   color: var(--clr-button-font);
-  background-color: var(--clr-button-fill);
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  border-radius: 4px;
-  width: fit-content;
-  border: 2px solid var(--clr-button-fill)
+  background-color: var(--clr-button-fill);
 }
 
 .button:hover {
-  background-color: var(--clr-button-font);
   color: var(--clr-button-fill);
+  background-color: var(--clr-button-font);
 }
 
 .button-slim {
@@ -79,12 +79,12 @@
 }
 
 .cover__title {
+  padding: 0 0 23px 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
   font-weight: 600;
+  font-size: 48px;
   line-height: 1.5;
   letter-spacing: -0.48px;
-  padding: 0 0 23px 0;
 }
 
 .cover__text {
@@ -92,10 +92,10 @@
 }
 
 .paragraph-text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.5;
   color: var(--clr-paragraph);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .button-wide {
@@ -109,8 +109,8 @@
 }
 
 .cover__img_center {
-  padding: 80px 0 0;
   height: 100%;
+  padding: 80px 0 0;
 }
 
 .about {
@@ -133,9 +133,9 @@
 }
 
 .h2-header {
+  color: var(--clr-text-accent);
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: var(--clr-text-accent);
   font-size: 36px;
   line-height: 1.5;
   letter-spacing: -0.36px;
@@ -149,7 +149,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   row-gap: 29px;
-  padding-top: 75px
+  padding-top: 75px;
 }
 
 .benefit__activities {
@@ -196,13 +196,13 @@
 }
 
 .gallery {
-  padding: 75px 0 0 0;
   position: relative;
+  padding: 75px 0 0 0;
 }
 
 .gallery__title {
-  text-align: center;
   padding: 0 0 36px 0;
+  text-align: center;
 }
 
 .gallery__list {
@@ -232,25 +232,25 @@
 .circle {
   width: 8px;
   height: 8px;
-  background-color: var(--clr-circle-white);
   border-radius: 50%;
+  background-color: var(--clr-circle-white);
   cursor: pointer;
 }
 
 .circle_orange {
-  background-color: var(--clr-circle-orange);
   opacity: 35%;
+  background-color: var(--clr-circle-orange);
 }
 
 .circle_active {
   width: 10px;
   height: 10px;
-  background-color: var(--clr-circle-orange);
   border-radius: 50%;
+  background-color: var(--clr-circle-orange);
 }
 
 .reservation {
-  padding-top: 73px
+  padding-top: 73px;
 }
 
 .reservation__intro {
@@ -260,13 +260,13 @@
 }
 
 .reservation__intro-title {
-  text-align: center;
   padding: 0 0 23px 0;
+  text-align: center;
 }
 
 .reservation__intro-text {
-  text-align: center;
   padding: 0 300px 32px;
+  text-align: center;
 }
 
 .reservation__button {
@@ -274,11 +274,11 @@
 }
 
 .reservation__options-list {
-  list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
   padding: 87px 0 0 0;
+  list-style: none;
 }
 
 .option-card {
@@ -293,38 +293,38 @@
 }
 
 .option-card__title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.5;
   padding: 30px 0 16px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 .option-card__link {
-  text-decoration: none;
+  display: block;
+  width: 50%;
   color: var(--clr-read-more-link);
   font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  font-weight: 400;
-  display: block;
+  text-decoration: none;
   background-image: url(../images/Arrow_Right.svg);
   background-repeat: no-repeat;
   background-position: 110px;
-  width: 50%;
 }
 
 .option-card__link:hover {
-  outline: 2px solid var(--clr-button-fill);
   border-radius: 4px;
+  outline: 2px solid var(--clr-button-fill);
   outline-offset: 4px;
 }
 
 .reviews {
-  padding: 80px 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 80px 0 0 0;
 }
 
 .reviews__title {
@@ -343,16 +343,16 @@
 }
 
 .review-card__text {
-  text-align: center;
   padding: 45px 324px 40px 322px;
+  text-align: center;
 }
 
 .review-card__name {
+  color: var(--clr-text-accent);
   font-family: 'Inter', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  font-weight: 500;
-  color: var(--clr-text-accent);
 }
 
 .reviews__carousel {
@@ -360,10 +360,10 @@
 }
 
 .footer {
-  background-color: var(--clr-footer-background);
-  padding: 120px 120px 120px 120px;
   display: grid;
   grid-template-columns: 1fr 0.42fr 0.37fr 0.33fr;
+  padding: 120px 120px 120px 120px;
+  background-color: var(--clr-footer-background);
 }
 
 .footer__logo {
@@ -376,29 +376,29 @@
 }
 
 .footer-heading {
+  padding: 0 0 20px 0;
   color: var(--clr-footer-heading);
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
   font-weight: 700;
+  font-size: 16px;
   line-height: normal;
   letter-spacing: 0.16px;
-  padding: 0 0 20px 0;
 }
 
 .footer-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
   color: var(--clr-footer-text);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   font-style: normal;
+  line-height: 28px;
 }
 
 .footer__outside-links-list {
-  list-style: none;
   display: flex;
+  gap: 10px;
   padding: 35px 0 0 0;
-  gap: 10px
+  list-style: none;
 }
 
 .link-logo {
@@ -411,10 +411,10 @@
 }
 
 .footer__houses-section-list {
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  list-style: none;
 }
 
 .footer-link {
@@ -422,9 +422,9 @@
 }
 
 .footer-link:hover {
+  border-radius: 6px;
   outline: 2px solid var(--clr-footer-text);
   outline-offset: 2px;
-  border-radius: 6px;
 }
 
 .footer__reserve-section-list {
